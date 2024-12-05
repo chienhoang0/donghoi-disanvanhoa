@@ -1,0 +1,199 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="icon/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="shortcut icon" href="img/donghoi.png" />
+  <link rel="stylesheet" href="CSS/main.css" />
+  <link rel="stylesheet" href="CSS/header.css" />
+  <link rel="stylesheet" href="CSS/content.css" />
+  <link rel="stylesheet" href="CSS/slider.css" />
+  <link rel="stylesheet" href="CSS/booking.css" />
+  <link rel="stylesheet" href="CSS/blog.css" />
+  <link rel="stylesheet" href="CSS/footer.css" />
+  <title>Di sản văn hoá Đồng Hới</title>
+</head>
+
+<body>
+  <!-- Messenger Plugin chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+  <script>
+    var chatbox = document.getElementById("fb-customer-chat");
+    chatbox.setAttribute("page_id", "112627521317796");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: "v12.0",
+      });
+    };
+
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "facebook-jssdk");
+  </script>
+  <div id="main">
+    <header id="header">
+      <!-- Begin menu nav -->
+      <div class="menu_top">
+        <a href="index.html"><img src="img/donghoi.png" alt="Logonav" /></a>
+        <ul id="nav">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li>
+            <a href="#">Tìm kiếm</a>
+            <div class="container-1">
+              <input class="subnav timkiem" type="search" placeholder="Tìm kiếm..." />
+            </div>
+          </li>
+          <li>
+            <a href="#services">
+              Dịch vụ
+              <i class="dow-icon ti-arrow-circle-down"></i>
+            </a>
+            <ul class="subnav">
+
+            </ul>
+          </li>
+
+        </ul>
+        <div class="user-section" onclick="handleLogin()">
+          <i class="fas fa-user"></i>
+        </div>
+
+        <div class="login-btn" style="display: none;"> <a href="UILogin.html">Đăng nhập</a>
+        </div>
+
+        <script>
+          function handleLogin() {
+            window.location.href = "UILogin.html";
+          }
+        </script>
+      </div>
+  </div>
+  </div>
+
+  <!-- End menu nav -->
+  </header>
+  <div id="slider">
+    <div class="banner-section">
+      <video playsinline autoplay muted loop>
+        z
+        <source src="img/introbanner.mp4" />
+      </video>
+      <div class="text-slider">
+        <h2 class="heading-slider">Hãy cùng nhau xem di sản văn hoá</h2>
+        <h4>
+          Hãy bảo vệ di sản của chúng ta
+        </h4>
+        <a class="morebanner-btn" href="#4diemden">Trải nghiệm</a>
+      </div>
+    </div>
+  </div>
+  <!-- Thiết kế content -->
+  <div id="content">
+    <!-- Banner content -->
+    <div class="introduct">
+      <div class="container">
+        <div class="content center">
+          <h5 class="t-black">Xem một số di sản</h5>
+          <span class="line gold"></span>
+          <h2 class="t-content">
+            Các di sản Đồng Hới
+            <span class="t-gold">DU LỊCH</span>
+          </h2>
+          <div id="4diemden"></div>
+          <h5 class="t-black bot-content">chọn một di sản</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-content">
+      <div class="box-container">
+        <div class="box">
+          <img src="img/anh1.jpg" alt="img-left" />
+          <div class="content">
+            <h3>Quảng Bình Quan</h3>
+            <p>
+              Quảng Bình Quan là một di tích kiến trúc quân sự tại thành phố Đồng Hới
+            </p>
+            <a href="quangbinhquan.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/tamtoa2.jpg" alt="img-left" />
+          <div class="content">
+            <h3>Tam toà</h3>
+            <p>
+              Tam toà là di tích nhà thơ công giáo tại thành phố Đồng Hới
+            </p>
+            <a href="tamtoa.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/tro5.jpg" alt="img-left" />
+          <div class="content">
+            <h3>Hồ Bàu Tró</h3>
+            <p>
+              Hồ Bàu Tró là một hồ nước ngọt tại thành phố Đồng Hới
+            </p>
+            <a href="hobautro.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/thanh2.jpg" alt="img-left" />
+          <div class="content">
+            <h3>Thành Đồng Hới</h3>
+            <p>
+              Thành Đồng Hới là một thành cổ Quảng Bình
+            </p>
+            <a href="thanhdonghoi.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End banner content -->
+  </div>
+  </form>
+  </div>
+  </div>
+  <!-- BLOG -->
+  <div id="blog">
+
+    <div class="footer-end">
+      2024 - Trang web được thiết kế bởi Chiến Hoàng
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="xem.js"></script>
